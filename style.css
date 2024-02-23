@@ -21,7 +21,7 @@ h1
     font-size: clamp(1.563rem, 1.116rem + 2.232vw, 3.125rem);
 }
 
-p
+p, a
 {
     font-size: clamp(1rem, 0.75rem + 1.25vw, 1.875rem);
 }
@@ -75,6 +75,64 @@ nav a, footer a
 nav a:hover
 {
     background-color: red;
+}
+
+.recipes
+{
+    padding: 5rem 0rem;
+}
+
+.recipes a
+{
+    padding: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.recipes .container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.recipeLinks
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.recipeCard
+{
+    padding: 4rem;
+    border: 3px solid #6CD4FF;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #F2F3D9;
+    transition: all .3s;
+}
+
+.recipeCard:hover
+{
+    -webkit-box-shadow: 3px 3px 34px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 34px -10px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 34px -10px rgba(0,0,0,0.75);
+}
+
+.recipeCard a
+{
+    font-weight:600;
+}
+
+.recipeCard p
+{
+    margin: 0;
+    padding: 0;
 }
 
 footer
