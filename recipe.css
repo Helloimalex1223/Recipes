@@ -1,0 +1,53 @@
+.title h1
+{
+    font-size: 60px;
+}
+.title img
+{
+    max-width: 75%;
+    height: auto;
+    border: 2px solid #6CD4FF;
+}
+
+
+.title .container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description
+{
+    padding: 2rem 0;
+}
+
+.description .container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+.Ingredients
+{
+    padding: 2rem 0;
+    border-top: 1px solid #8B80F9;
+}
+
+.Ingredients li
+{
+    padding: .5rem 0;
+}
+
+.Steps
+{
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+    border-top: 1px solid #DC9E82;
+}
+
+.Steps li
+{
+    padding: .5rem 0;
+}
